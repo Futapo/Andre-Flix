@@ -16,6 +16,7 @@
 		3FFC525427B5EB8200FEDF61 /* Andre_FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC525327B5EB8200FEDF61 /* Andre_FlixTests.swift */; };
 		3FFC525E27B5EB8200FEDF61 /* Andre_FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC525D27B5EB8200FEDF61 /* Andre_FlixUITests.swift */; };
 		3FFC526027B5EB8200FEDF61 /* Andre_FlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC525F27B5EB8200FEDF61 /* Andre_FlixUITestsLaunchTests.swift */; };
+		3FFC527127B70B9100FEDF61 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFC527027B70B9100FEDF61 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3FFC525927B5EB8200FEDF61 /* Andre-FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Andre-FlixUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFC525D27B5EB8200FEDF61 /* Andre_FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Andre_FlixUITests.swift; sourceTree = "<group>"; };
 		3FFC525F27B5EB8200FEDF61 /* Andre_FlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Andre_FlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FFC527027B70B9100FEDF61 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3FFC523027B5EB8000FEDF61 = {
 			isa = PBXGroup;
 			children = (
+				3FFC527027B70B9100FEDF61 /* MovieCell.swift */,
 				3FFC523B27B5EB8000FEDF61 /* Andre-Flix */,
 				3FFC525227B5EB8200FEDF61 /* Andre-FlixTests */,
 				3FFC525C27B5EB8200FEDF61 /* Andre-FlixUITests */,
@@ -260,6 +263,7 @@
 			files = (
 				3FFC524127B5EB8000FEDF61 /* ViewController.swift in Sources */,
 				3FFC523D27B5EB8000FEDF61 /* AppDelegate.swift in Sources */,
+				3FFC527127B70B9100FEDF61 /* MovieCell.swift in Sources */,
 				3FFC523F27B5EB8000FEDF61 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +497,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4BV5CLJ7C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -512,6 +517,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B4BV5CLJ7C;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
